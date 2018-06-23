@@ -1,6 +1,6 @@
 {
   "name": "react-native-open-calculator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Opens native Calculator App from react native. ",
   "main": "index.js",
   "scripts": {

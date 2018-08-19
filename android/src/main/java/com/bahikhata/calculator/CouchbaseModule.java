@@ -1,4 +1,4 @@
-package com.bahikhata.calculator;
+package com.bahikhata.couchbase;
 
 import android.app.Application;
 import android.content.Intent;
@@ -21,15 +21,15 @@ import javax.annotation.Nullable;
  * Created by user on 26/10/17.
  */
 
-public class CalculatorModule extends ReactContextBaseJavaModule {
+public class CouchbaseModule extends ReactContextBaseJavaModule {
 
-    public CalculatorModule(ReactApplicationContext reactContext) {
+    public CouchbaseModule(ReactApplicationContext reactContext) {
         super(reactContext);
     }
 
     @Override
     public String getName() {
-        return "Calculator";
+        return "Couchbase";
     }
 
     @Nullable

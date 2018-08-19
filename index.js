@@ -1,3 +1,3 @@
-var Calculator = require('react-native').NativeModules.Calculator;
+var Couchbase = require('react-native').NativeModules.Couchbase;
 
-module.exports = Calculator;
+module.exports = Couchbase;

@@ -1,19 +1,19 @@
 {
-  "name": "react-native-open-calculator",
-  "version": "0.0.4",
-  "description": "Opens native Calculator App from react native. ",
+  "name": "react-native-couchbase-lite2",
+  "version": "0.0.1",
+  "description": "React Native bindings for couchbase database. ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "calculator",
-    "native",
-    "app"
+    "couchbase lite",
+    "react native",
+    "database"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bahikhata/react-native-open-calculator.git"
+    "url": "https://github.com/aNinjaMonk/react-native-couchbase-lite2.git"
   },
   "author": "abhijeetgoel77@gmail.com",
   "license": "ISC"

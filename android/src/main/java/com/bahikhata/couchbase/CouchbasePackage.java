@@ -1,4 +1,4 @@
-package com.bahikhata.calculator;
+package com.bahikhata.couchbase;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
@@ -13,13 +13,13 @@ import java.util.List;
  * Created by user on 26/10/17.
  */
 
-public class CalculatorPackage implements ReactPackage{
+public class CouchbasePackage implements ReactPackage{
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
 
-        modules.add(new CalculatorModule(reactContext));
+        modules.add(new CouchbaseModule(reactContext));
 
         return modules;
     }
